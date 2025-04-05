@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    printf("enter two numbers: ");
+    printf("Two integers: ");
     scanf("%d %d" ,&a,&b);
     a=a^b;
     b=a^b;
